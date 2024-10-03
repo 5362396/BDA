@@ -1,0 +1,7 @@
+fastparquet==2024.5.0
+filesplit==4.0.1
+jupyter==1.1.1
+jupyterlab==4.2.5
+matplotlib==3.9.2
+numpy==2.1.1
+pandas==2.2.3
