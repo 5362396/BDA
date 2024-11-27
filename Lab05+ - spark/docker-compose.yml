@@ -1,6 +1,6 @@
 services:
   spark-master-3.5.3:
-    image: spark-3.5.3:v6
+    image: spark-3.5.3:v7
     tty: true
     stdin_open: true
     command: bash
@@ -11,3 +11,4 @@ services:
       - "4040:4040"
     volumes:
        - ./apps:/opt/spark/work-dir
+       - ./airflow:/home/spark/airflow
