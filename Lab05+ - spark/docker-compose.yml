@@ -1,6 +1,6 @@
 services:
   spark-master-3.5.3:
-    image: spark-3.5.3:v8
+    image: spark-3.5.3:v9
     tty: true
     stdin_open: true
     command: bash
